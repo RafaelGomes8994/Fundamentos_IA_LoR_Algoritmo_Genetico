@@ -1,0 +1,3434 @@
+{
+  "champions": {
+    "Jinx": {
+      "name": "Jinx",
+      "archetype": "Aggressive",
+      "difficulty": "Easy",
+      "core_mechanic": "Discard hand on summon to deal massive burn damage and clear the board.",
+      "tier": "S+",
+      "bis_relics": [
+        "The Loose Cannon's Payload",
+        "The Scourge Stash",
+        "Luden's Tempest"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "The Loose Cannon's Payload",
+          "The Scourge Stash"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "The Loose Cannon's Payload",
+          "The Scourge Stash",
+          "Luden's Tempest"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Yasuo": {
+      "name": "Yasuo",
+      "archetype": "Control",
+      "difficulty": "Medium",
+      "core_mechanic": "Stun enemies to level up quickly and control the battlefield.",
+      "tier": "S+",
+      "bis_relics": [
+        "Everfrost",
+        "Yasuo's Windblade",
+        "Tempest Blade"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "Everfrost",
+          "Yasuo's Windblade"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "Everfrost",
+          "Yasuo's Windblade",
+          "Tempest Blade"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Aurelion Sol": {
+      "name": "Aurelion Sol",
+      "archetype": "Defensive",
+      "difficulty": "Medium",
+      "core_mechanic": "Invoke high-cost celestials and drop cheap, massive units.",
+      "tier": "S+",
+      "bis_relics": [
+        "The Star Forge",
+        "Chosen by the Stars",
+        "Archangel's Staff"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "The Star Forge",
+          "Chosen by the Stars"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "The Star Forge",
+          "Chosen by the Stars",
+          "Archangel's Staff"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Ambessa": {
+      "name": "Ambessa",
+      "archetype": "Aggressive",
+      "difficulty": "Easy",
+      "core_mechanic": "Flank power, barriers, multi-unit attacks",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Ashe": {
+      "name": "Ashe",
+      "archetype": "Control",
+      "difficulty": "Medium",
+      "core_mechanic": "Freeze the entire enemy board and strike down zero-power units.",
+      "tier": "A",
+      "bis_relics": [
+        "The Grandmaster's Ogre",
+        "Archangel's Staff",
+        "Laurent Bladerack"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "The Grandmaster's Ogre",
+          "Archangel's Staff"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "The Grandmaster's Ogre",
+          "Archangel's Staff",
+          "Laurent Bladerack"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Caitlyn": {
+      "name": "Caitlyn",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Flashbomb traps passive damage",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Ekko": {
+      "name": "Ekko",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Predict mechanic, spell recursion",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Lux: Illuminated": {
+      "name": "Lux: Illuminated",
+      "archetype": "Aggressive",
+      "difficulty": "Easy",
+      "core_mechanic": "Spam spells to buff illuminated units and build wide boards.",
+      "tier": "A+",
+      "bis_relics": [
+        "Lux's Incandescent Baton",
+        "Spirit of the Buhru",
+        "Chemtech Duplicator"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "Lux's Incandescent Baton",
+          "Spirit of the Buhru"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "Lux's Incandescent Baton",
+          "Spirit of the Buhru",
+          "Chemtech Duplicator"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Morgana": {
+      "name": "Morgana",
+      "archetype": "Control",
+      "difficulty": "Medium",
+      "core_mechanic": "Curses enemies with Shackle, stops attacks",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Nidalee": {
+      "name": "Nidalee",
+      "archetype": "Aggressive",
+      "difficulty": "Hard",
+      "core_mechanic": "Transform units and abuse rally triggers for quick wins.",
+      "tier": "S",
+      "bis_relics": [
+        "Crownguard Inheritance",
+        "Lost Chapter",
+        "The Beast Within"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "Crownguard Inheritance",
+          "Lost Chapter"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "Crownguard Inheritance",
+          "Lost Chapter",
+          "The Beast Within"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Elder Dragon": {
+      "name": "Elder Dragon",
+      "archetype": "Defensive",
+      "difficulty": "Hard",
+      "core_mechanic": "Cannot be stopped, high cost devastation",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Veigar": {
+      "name": "Veigar",
+      "archetype": "Control",
+      "difficulty": "Medium",
+      "core_mechanic": "Increases Darkness damage every round",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Gwen": {
+      "name": "Gwen",
+      "archetype": "Aggressive",
+      "difficulty": "Easy",
+      "core_mechanic": "Hallowed buff lifesteal and high scaling",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Viego": {
+      "name": "Viego",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Kill own allies to grow infinitely and trigger kill effects.",
+      "tier": "S+",
+      "bis_relics": [
+        "Disciple of Shadows",
+        "Corrupted Star Fragment",
+        "Succubus's Brand"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "Disciple of Shadows",
+          "Corrupted Star Fragment"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "Disciple of Shadows",
+          "Corrupted Star Fragment",
+          "Succubus's Brand"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Swain": {
+      "name": "Swain",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Deal Nexus damage to trigger passive abilities and control lanes.",
+      "tier": "S",
+      "bis_relics": [
+        "Swain's Ravenous Flock",
+        "Gatebreaker",
+        "The Scourge Stash"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "Swain's Ravenous Flock",
+          "Gatebreaker"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "Swain's Ravenous Flock",
+          "Gatebreaker",
+          "The Scourge Stash"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Jax": {
+      "name": "Jax",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Stack items and keyword traits on Jax for quick strikes.",
+      "tier": "A+",
+      "bis_relics": [
+        "The Grandmaster's Ogre",
+        "Galeforce",
+        "Bounty Hunter's Renown"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "The Grandmaster's Ogre",
+          "Galeforce"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "The Grandmaster's Ogre",
+          "Galeforce",
+          "Bounty Hunter's Renown"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Annie": {
+      "name": "Annie",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Spam cheap spells and skills to melt the enemy Nexus.",
+      "tier": "A",
+      "bis_relics": [
+        "The Grandmaster's Ogre",
+        "Luden's Tempest",
+        "Dreadway Chase Gun"
+      ],
+      "star_power_synergies": {
+        "1": [
+          "The Grandmaster's Ogre",
+          "Luden's Tempest"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [
+          "The Grandmaster's Ogre",
+          "Luden's Tempest",
+          "Dreadway Chase Gun"
+        ],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Aatrox": {
+      "name": "Aatrox",
+      "archetype": "Titanic",
+      "difficulty": "Medium",
+      "core_mechanic": "World Ender discount with Darkin units",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Troll King's Crown",
+          "Spirit of the Buhru"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Ahri": {
+      "name": "Ahri",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Recall and re-summon with elusive strikes",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Bard": {
+      "name": "Bard",
+      "archetype": "Keyword_Stack",
+      "difficulty": "Medium",
+      "core_mechanic": "Chimes keyword and stat amplification",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Darius": {
+      "name": "Darius",
+      "archetype": "Aggressive",
+      "difficulty": "Medium",
+      "core_mechanic": "Direct overwhelm attacks and attack rallies",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Diana": {
+      "name": "Diana",
+      "archetype": "Aggressive",
+      "difficulty": "Medium",
+      "core_mechanic": "Nightfall cascading quick attacks",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Elise": {
+      "name": "Elise",
+      "archetype": "Aggressive",
+      "difficulty": "Medium",
+      "core_mechanic": "Spiderling swarm with fearsome and keywords",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Evelynn": {
+      "name": "Evelynn",
+      "archetype": "Slay",
+      "difficulty": "Medium",
+      "core_mechanic": "Husk leveling loop granting massive stats",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Yasuo's Windblade",
+          "Disciple of Shadows"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Garen": {
+      "name": "Garen",
+      "archetype": "Aggressive",
+      "difficulty": "Medium",
+      "core_mechanic": "Round start strikes and automatic rallies",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Gnar": {
+      "name": "Gnar",
+      "archetype": "Transform",
+      "difficulty": "Medium",
+      "core_mechanic": "Pokey stick ping and Mega Gnar overwhelm",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Illaoi": {
+      "name": "Illaoi",
+      "archetype": "Aggressive",
+      "difficulty": "Medium",
+      "core_mechanic": "Spawn tentacles and double strike power",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Jack": {
+      "name": "Jack",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Coin mana refill and prize fight",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Janna": {
+      "name": "Janna",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Cost reduction through card draw",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Jhin": {
+      "name": "Jhin",
+      "archetype": "Control",
+      "difficulty": "Medium",
+      "core_mechanic": "Captive audience stun and lotus trap burn",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Kai'Sa": {
+      "name": "Kai'Sa",
+      "archetype": "Keyword_Stack",
+      "difficulty": "Medium",
+      "core_mechanic": "Second skin keyword harvesting",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Kayn": {
+      "name": "Kayn",
+      "archetype": "Transform",
+      "difficulty": "Medium",
+      "core_mechanic": "Rhaast / Shadow Assassin transformation",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Kennen": {
+      "name": "Kennen",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Mark of the storm stuns and lightning",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Kindred": {
+      "name": "Kindred",
+      "archetype": "Slay",
+      "difficulty": "Medium",
+      "core_mechanic": "Prey mark execution each round",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Yasuo's Windblade",
+          "Disciple of Shadows"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Leblanc": {
+      "name": "Leblanc",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Mirror Image spam and repeated summons",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Lee Sin": {
+      "name": "Lee Sin",
+      "archetype": "Spell_Spam",
+      "difficulty": "Medium",
+      "core_mechanic": "Dragon's rage kick and barriers",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Luden's Tempest",
+          "Chemtech Duplicator"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Leona": {
+      "name": "Leona",
+      "archetype": "Control",
+      "difficulty": "Medium",
+      "core_mechanic": "Daybreak chain stuns",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Lillia": {
+      "name": "Lillia",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Sleep stasis and summon re-triggers",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Lux": {
+      "name": "Lux",
+      "archetype": "Spell_Spam",
+      "difficulty": "Medium",
+      "core_mechanic": "Final Spark laser spam",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Luden's Tempest",
+          "Chemtech Duplicator"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Master Yi": {
+      "name": "Master Yi",
+      "archetype": "Spell_Spam",
+      "difficulty": "Medium",
+      "core_mechanic": "Flow mechanic with 0-cost alpha strike",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Luden's Tempest",
+          "Chemtech Duplicator"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Miss Fortune": {
+      "name": "Miss Fortune",
+      "archetype": "Aggressive",
+      "difficulty": "Medium",
+      "core_mechanic": "Love tap bullet time ping on attacks",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Mordekaiser": {
+      "name": "Mordekaiser",
+      "archetype": "Slay",
+      "difficulty": "Medium",
+      "core_mechanic": "Realm of death resurrection",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Yasuo's Windblade",
+          "Disciple of Shadows"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Nami": {
+      "name": "Nami",
+      "archetype": "Spell_Spam",
+      "difficulty": "Medium",
+      "core_mechanic": "Spell cast buffing lowest health ally",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Luden's Tempest",
+          "Chemtech Duplicator"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Nasus": {
+      "name": "Nasus",
+      "archetype": "Slay",
+      "difficulty": "Medium",
+      "core_mechanic": "Siphoning strike slay scaling and sun disc",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Yasuo's Windblade",
+          "Disciple of Shadows"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Neeko": {
+      "name": "Neeko",
+      "archetype": "Keyword_Stack",
+      "difficulty": "Medium",
+      "core_mechanic": "Shapesplitter subtype array",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Nilah": {
+      "name": "Nilah",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Fleeting card duplicates and slipstream",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Norra": {
+      "name": "Norra",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Mysterious portals summoning random units",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Ornn": {
+      "name": "Ornn",
+      "archetype": "Titanic",
+      "difficulty": "Medium",
+      "core_mechanic": "Forge master equipment duplication",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Troll King's Crown",
+          "Spirit of the Buhru"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Pyke": {
+      "name": "Pyke",
+      "archetype": "Aggressive",
+      "difficulty": "Medium",
+      "core_mechanic": "Lurker instant board sweep on kill",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Samira": {
+      "name": "Samira",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Style rank combo and 0-cost rally",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Sett": {
+      "name": "Sett",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Showstopper true damage obliterates",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Tahm Kench": {
+      "name": "Tahm Kench",
+      "archetype": "Defensive",
+      "difficulty": "Medium",
+      "core_mechanic": "Acquired taste capture and health scaling",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Taliyah": {
+      "name": "Taliyah",
+      "archetype": "Combo",
+      "difficulty": "Medium",
+      "core_mechanic": "Landmark duplication and stone volley",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Teemo": {
+      "name": "Teemo",
+      "archetype": "Discard_Burn",
+      "difficulty": "Medium",
+      "core_mechanic": "Puffcap multiplier on nexus strikes",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "The Loose Cannon's Payload",
+          "Luden's Tempest"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Thresh": {
+      "name": "Thresh",
+      "archetype": "Slay",
+      "difficulty": "Medium",
+      "core_mechanic": "Champion pull from deck on unit deaths",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Yasuo's Windblade",
+          "Disciple of Shadows"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Vayne": {
+      "name": "Vayne",
+      "archetype": "Aggressive",
+      "difficulty": "Medium",
+      "core_mechanic": "Tumble free attack generation",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Vex": {
+      "name": "Vex",
+      "archetype": "Control",
+      "difficulty": "Medium",
+      "core_mechanic": "Gloom stacks reducing enemy stats",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Vi": {
+      "name": "Vi",
+      "archetype": "Aggressive",
+      "difficulty": "Medium",
+      "core_mechanic": "Vault breaker huge attack punches",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Volibear": {
+      "name": "Volibear",
+      "archetype": "Titanic",
+      "difficulty": "Medium",
+      "core_mechanic": "Sigil of the storm titanic drops",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [
+          "Troll King's Crown",
+          "Spirit of the Buhru"
+        ],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    },
+    "Yuumi": {
+      "name": "Yuumi",
+      "archetype": "Keyword_Stack",
+      "difficulty": "Medium",
+      "core_mechanic": "Attach mechanic making untargetable hyper-carry",
+      "tier": "A",
+      "bis_relics": [],
+      "star_power_synergies": {
+        "1": [],
+        "2": [
+          "The Star Forge",
+          "Gatebreaker",
+          "Luden's Tempest",
+          "Lost Chapter"
+        ],
+        "3": [],
+        "4": [
+          "The Beast Within",
+          "Chosen by the Stars"
+        ],
+        "5": [
+          "The Star Forge",
+          "Echoing Spirit"
+        ],
+        "6": [
+          "Chosen by the Stars",
+          "Epic: Spectral Scissors",
+          "The Beast Within"
+        ]
+      },
+      "tags": []
+    }
+  },
+  "relics": {
+    "The Loose Cannon's Payload": {
+      "name": "The Loose Cannon's Payload",
+      "rarity": "Rare",
+      "base_score": 2.0,
+      "stackable": false,
+      "description": "When I'm summoned, discard your hand then replace it with Pow-Pows.",
+      "tags": [
+        "discard",
+        "burn",
+        "summon",
+        "removal"
+      ]
+    },
+    "Luden's Tempest": {
+      "name": "Luden's Tempest",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": true,
+      "description": "All your spells and Skills deal 1 extra damage.",
+      "tags": [
+        "spell",
+        "skill",
+        "burn",
+        "damage_boost"
+      ]
+    },
+    "The Scourge Stash": {
+      "name": "The Scourge Stash",
+      "rarity": "Rare",
+      "base_score": 5.0,
+      "stackable": false,
+      "description": "Plunder: I cost 2 less.",
+      "tags": [
+        "plunder",
+        "cost_reduction",
+        "tempo"
+      ]
+    },
+    "Gatebreaker": {
+      "name": "Gatebreaker",
+      "rarity": "Rare",
+      "base_score": 6.0,
+      "stackable": true,
+      "description": "When I'm summoned, I strike the enemy Nexus.",
+      "tags": [
+        "strike",
+        "nexus_damage",
+        "summon",
+        "burn"
+      ]
+    },
+    "Stalker's Blade": {
+      "name": "Stalker's Blade",
+      "rarity": "Rare",
+      "base_score": 6.5,
+      "stackable": true,
+      "description": "When I'm summoned, I strike the strongest enemy.",
+      "tags": [
+        "strike",
+        "removal",
+        "summon",
+        "control"
+      ]
+    },
+    "Tempest Blade": {
+      "name": "Tempest Blade",
+      "rarity": "Rare",
+      "base_score": 5.0,
+      "stackable": false,
+      "description": "When I level up, stun all enemies.",
+      "tags": [
+        "stun",
+        "control",
+        "board_clear",
+        "level_up"
+      ]
+    },
+    "Yasuo's Windblade": {
+      "name": "Yasuo's Windblade",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "Grant +1|+1 for each stunned enemy.",
+      "tags": [
+        "stun",
+        "stat_buff",
+        "scaling"
+      ]
+    },
+    "Crownguard Inheritance": {
+      "name": "Crownguard Inheritance",
+      "rarity": "Rare",
+      "base_score": 6.0,
+      "stackable": false,
+      "description": "When I level up, Rally.",
+      "tags": [
+        "rally",
+        "level_up",
+        "aggro",
+        "tempo"
+      ]
+    },
+    "Guardian's Orb": {
+      "name": "Guardian's Orb",
+      "rarity": "Rare",
+      "base_score": 6.0,
+      "stackable": true,
+      "description": "When I'm summoned, grant 3 random Epic items to cards in deck.",
+      "tags": [
+        "summon",
+        "value",
+        "rng_buff",
+        "scaling"
+      ]
+    },
+    "Galeforce": {
+      "name": "Galeforce",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "Scout. Round End: Recall me.",
+      "tags": [
+        "scout",
+        "summon_repeat",
+        "aggro",
+        "recall"
+      ]
+    },
+    "Chemtech Duplicator": {
+      "name": "Chemtech Duplicator",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "When you play a spell, if you have 6+ mana gems, cast a copy.",
+      "tags": [
+        "spell",
+        "copy",
+        "value",
+        "late_game"
+      ]
+    },
+    "The Grand General's Counterplan": {
+      "name": "The Grand General's Counterplan",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "Round Start: Create a Fleeting copy of my champion spell.",
+      "tags": [
+        "spell",
+        "card_generation",
+        "value",
+        "sustain"
+      ]
+    },
+    "Troll King's Crown": {
+      "name": "Troll King's Crown",
+      "rarity": "Rare",
+      "base_score": 6.5,
+      "stackable": false,
+      "description": "Allies have Overwhelm.",
+      "tags": [
+        "overwhelm",
+        "finisher",
+        "board_buff",
+        "aggro"
+      ]
+    },
+    "Archangel's Staff": {
+      "name": "Archangel's Staff",
+      "rarity": "Rare",
+      "base_score": 5.0,
+      "stackable": false,
+      "description": "Round Start: Refill your spell mana.",
+      "tags": [
+        "spell_mana",
+        "sustain",
+        "spell"
+      ]
+    },
+    "Disciple of Shadows": {
+      "name": "Disciple of Shadows",
+      "rarity": "Rare",
+      "base_score": 6.0,
+      "stackable": false,
+      "description": "I cost 1 less for each ally. When summoned, deal 3 to all allies.",
+      "tags": [
+        "slay",
+        "cost_reduction",
+        "tempo",
+        "sacrifice"
+      ]
+    },
+    "Corrupted Star Fragment": {
+      "name": "Corrupted Star Fragment",
+      "rarity": "Rare",
+      "base_score": 6.5,
+      "stackable": false,
+      "description": "Support: Kill supported ally and grant me its stats and positive keywords.",
+      "tags": [
+        "support",
+        "stat_buff",
+        "slay",
+        "keyword_stack"
+      ]
+    },
+    "Succubus's Brand": {
+      "name": "Succubus's Brand",
+      "rarity": "Rare",
+      "base_score": 5.0,
+      "stackable": false,
+      "description": "When I kill an enemy, summon a random Husk.",
+      "tags": [
+        "slay",
+        "husk",
+        "keyword_stack"
+      ]
+    },
+    "Bounty Hunter's Renown": {
+      "name": "Bounty Hunter's Renown",
+      "rarity": "Rare",
+      "base_score": 5.0,
+      "stackable": false,
+      "description": "I have +1|+1 for each 200 gold you have.",
+      "tags": [
+        "stat_buff",
+        "scaling",
+        "gold"
+      ]
+    },
+    "Laurent Bladerack": {
+      "name": "Laurent Bladerack",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "Allies have Challenger.",
+      "tags": [
+        "challenger",
+        "board_control",
+        "combat"
+      ]
+    },
+    "Dreadway Chase Gun": {
+      "name": "Dreadway Chase Gun",
+      "rarity": "Rare",
+      "base_score": 4.5,
+      "stackable": true,
+      "description": "When I'm summoned, create 2 Warning Shots in hand.",
+      "tags": [
+        "burn",
+        "spell",
+        "plunder",
+        "summon"
+      ]
+    },
+    "Swain's Ravenous Flock": {
+      "name": "Swain's Ravenous Flock",
+      "rarity": "Rare",
+      "base_score": 6.0,
+      "stackable": false,
+      "description": "Deal 4 damage to damaged or stunned enemies on summon.",
+      "tags": [
+        "burn",
+        "removal",
+        "stun"
+      ]
+    },
+    "Lux's Incandescent Baton": {
+      "name": "Lux's Incandescent Baton",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "Create a 0-cost Prismatic Barrier on round start.",
+      "tags": [
+        "barrier",
+        "spell",
+        "protection"
+      ]
+    },
+    "Spirit of the Buhru": {
+      "name": "Spirit of the Buhru",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "1-cost allies have Overwhelm, Quick Attack, and Fury.",
+      "tags": [
+        "1_cost",
+        "board_buff",
+        "aggro",
+        "overwhelm"
+      ]
+    },
+    "The Grandmaster's Ogre": {
+      "name": "The Grandmaster's Ogre",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "When I'm summoned, grant allies +1|+1 and Overwhelm.",
+      "tags": [
+        "board_buff",
+        "stat_buff",
+        "overwhelm"
+      ]
+    },
+    "Chosen by the Stars": {
+      "name": "Chosen by the Stars",
+      "rarity": "Epic",
+      "base_score": 8.5,
+      "stackable": false,
+      "description": "Fated, Empowered 10: Overwhelm, Regenerate, and Challenger.",
+      "tags": [
+        "fated",
+        "stat_buff",
+        "overwhelm",
+        "regenerate",
+        "challenger"
+      ]
+    },
+    "Echoing Spirit": {
+      "name": "Echoing Spirit",
+      "rarity": "Epic",
+      "base_score": 8.0,
+      "stackable": false,
+      "description": "Create 7 copies of me in your deck. Reduce my champion spell cost by 1.",
+      "tags": [
+        "draw",
+        "copies",
+        "spell",
+        "cost_reduction"
+      ]
+    },
+    "The Beast Within": {
+      "name": "The Beast Within",
+      "rarity": "Epic",
+      "base_score": 8.0,
+      "stackable": false,
+      "description": "Allies with Subtypes have +1|+1 and Overwhelm.",
+      "tags": [
+        "subtype",
+        "overwhelm",
+        "stat_buff",
+        "board_buff"
+      ]
+    },
+    "The Star Forge": {
+      "name": "The Star Forge",
+      "rarity": "Epic",
+      "base_score": 9.0,
+      "stackable": false,
+      "description": "Game Start: If I am Titanic, get +1 starting mana gem.",
+      "tags": [
+        "mana_gem",
+        "titanic",
+        "tempo",
+        "ramp"
+      ]
+    },
+    "Epic: Spectral Scissors": {
+      "name": "Epic: Spectral Scissors",
+      "rarity": "Epic",
+      "base_score": 8.0,
+      "stackable": false,
+      "description": "Support: Summon an attacking Ephemeral exact copy of the supported ally.",
+      "tags": [
+        "support",
+        "ephemeral",
+        "copy",
+        "aggro"
+      ]
+    },
+    "Starforged Gauntlets": {
+      "name": "Starforged Gauntlets",
+      "rarity": "Epic",
+      "base_score": 9.0,
+      "stackable": false,
+      "description": "Game Start: If I am Titanic, get +1 starting mana gem.",
+      "tags": [
+        "mana_gem",
+        "titanic",
+        "tempo",
+        "ramp"
+      ]
+    },
+    "Oath of the Guardians": {
+      "name": "Oath of the Guardians",
+      "rarity": "Epic",
+      "base_score": 8.5,
+      "stackable": false,
+      "description": "When I'm summoned, shuffle 5 Level 2 Champions into your deck and double their stats.",
+      "tags": [
+        "summon",
+        "value",
+        "champion_spam",
+        "scaling"
+      ]
+    },
+    "Packed Powder": {
+      "name": "Packed Powder",
+      "rarity": "Epic",
+      "base_score": 8.0,
+      "stackable": false,
+      "description": "Plunder: I cost 1 less and have +1|+1.",
+      "tags": [
+        "plunder",
+        "cost_reduction",
+        "stat_buff",
+        "tempo"
+      ]
+    },
+    "Shock & Awe": {
+      "name": "Shock & Awe",
+      "rarity": "Epic",
+      "base_score": 8.0,
+      "stackable": false,
+      "description": "When you summon an ally with 1 Cost or less, it deals 1 to the enemy Nexus.",
+      "tags": [
+        "1_cost",
+        "burn",
+        "nexus_damage",
+        "aggro"
+      ]
+    },
+    "Secret Technique": {
+      "name": "Secret Technique",
+      "rarity": "Epic",
+      "base_score": 8.0,
+      "stackable": false,
+      "description": "When you cast a spell that targets an ally, grant it +1|+1.",
+      "tags": [
+        "spell",
+        "target_ally",
+        "stat_buff",
+        "scaling"
+      ]
+    },
+    "Portal Accelerator": {
+      "name": "Portal Accelerator",
+      "rarity": "Epic",
+      "base_score": 8.0,
+      "stackable": false,
+      "description": "Round Start: If you don't have the attack token, plant 3 Mysterious Portals in deck.",
+      "tags": [
+        "portal",
+        "summon",
+        "board_swarm",
+        "value"
+      ]
+    },
+    "Death's Foil": {
+      "name": "Death's Foil",
+      "rarity": "Epic",
+      "base_score": 8.5,
+      "stackable": false,
+      "description": "While attacking, I cannot take damage or die.",
+      "tags": [
+        "invulnerable",
+        "combat",
+        "strike",
+        "protection"
+      ]
+    },
+    "Fear-Cleaving Axe": {
+      "name": "Fear-Cleaving Axe",
+      "rarity": "Epic",
+      "base_score": 8.0,
+      "stackable": false,
+      "description": "When you boost an ally's stats or positive keywords, double the buff.",
+      "tags": [
+        "stat_buff",
+        "keyword_stack",
+        "scaling"
+      ]
+    },
+    "Icon of Valhir": {
+      "name": "Icon of Valhir",
+      "rarity": "Epic",
+      "base_score": 8.5,
+      "stackable": false,
+      "description": "Your damage-dealing spells and skills deal 2 extra damage.",
+      "tags": [
+        "burn",
+        "spell",
+        "skill",
+        "damage_boost"
+      ]
+    },
+    "Star Gem": {
+      "name": "Star Gem",
+      "rarity": "Rare",
+      "base_score": 6.0,
+      "stackable": true,
+      "description": "Allied Champions have +1|+1 and cost 2 less.",
+      "tags": [
+        "champion_buff",
+        "cost_reduction",
+        "tempo"
+      ]
+    },
+    "Luminous Orb": {
+      "name": "Luminous Orb",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "I have +0|+3 and I am Titanic.",
+      "tags": [
+        "titanic",
+        "stat_buff",
+        "health"
+      ]
+    },
+    "Wicked Harvest": {
+      "name": "Wicked Harvest",
+      "rarity": "Rare",
+      "base_score": 6.0,
+      "stackable": false,
+      "description": "When I'm summoned, deal 3 to all other units.",
+      "tags": [
+        "board_clear",
+        "slay",
+        "summon"
+      ]
+    },
+    "Voidborne Carapace": {
+      "name": "Voidborne Carapace",
+      "rarity": "Rare",
+      "base_score": 5.5,
+      "stackable": false,
+      "description": "When ANY unit dies, grant me its positive keywords.",
+      "tags": [
+        "keyword_stack",
+        "slay",
+        "scaling"
+      ]
+    },
+    "Guardian Angel": {
+      "name": "Guardian Angel",
+      "rarity": "Common",
+      "base_score": 4.0,
+      "stackable": false,
+      "description": "Start adventure with +1 Revive. When I die the first time, revive me with 1 Health.",
+      "tags": [
+        "revive",
+        "protection",
+        "sustain"
+      ]
+    },
+    "Chameleon's Necklace": {
+      "name": "Chameleon's Necklace",
+      "rarity": "Common",
+      "base_score": 3.5,
+      "stackable": true,
+      "description": "Game Start: Create 2 copies of me in your deck.",
+      "tags": [
+        "draw",
+        "consistency",
+        "copy"
+      ]
+    },
+    "Everfrost": {
+      "name": "Everfrost",
+      "rarity": "Common",
+      "base_score": 4.0,
+      "stackable": false,
+      "description": "When I'm summoned, stun the strongest enemy.",
+      "tags": [
+        "stun",
+        "control",
+        "summon"
+      ]
+    },
+    "Lost Chapter": {
+      "name": "Lost Chapter",
+      "rarity": "Common",
+      "base_score": 4.5,
+      "stackable": false,
+      "description": "When I'm summoned, refill your spell mana.",
+      "tags": [
+        "spell_mana",
+        "tempo",
+        "summon"
+      ]
+    },
+    "Z-Drive Prototype": {
+      "name": "Z-Drive Prototype",
+      "rarity": "Common",
+      "base_score": 3.0,
+      "stackable": true,
+      "description": "Start adventure with +2 rerolls.",
+      "tags": [
+        "reroll",
+        "utility",
+        "consistency"
+      ]
+    },
+    "Banshee's Veil": {
+      "name": "Banshee's Veil",
+      "rarity": "Common",
+      "base_score": 4.0,
+      "stackable": false,
+      "description": "SpellShield.",
+      "tags": [
+        "spellshield",
+        "protection",
+        "anti_removal"
+      ]
+    },
+    "Warmog's Armor": {
+      "name": "Warmog's Armor",
+      "rarity": "Common",
+      "base_score": 3.5,
+      "stackable": false,
+      "description": "Regeneration.",
+      "tags": [
+        "regenerate",
+        "sustain"
+      ]
+    }
+  },
+  "bosses": {
+    "Teemo": {
+      "name": "Teemo",
+      "stars": 1.0,
+      "map_type": "World Adventure",
+      "threat_description": "1-Star Map. Spams Puffcaps in your deck.",
+      "counter_tags": [
+        "burn",
+        "aggro",
+        "tempo"
+      ],
+      "vulnerable_tags": [
+        "burn",
+        "aggro"
+      ],
+      "penalized_tags": [
+        "draw"
+      ]
+    },
+    "Lulu": {
+      "name": "Lulu",
+      "stars": 1.5,
+      "map_type": "World Adventure",
+      "threat_description": "1.5-Star Map. Transforms your blockers into 1/1 Pixels.",
+      "counter_tags": [
+        "burn",
+        "spellshield",
+        "summon",
+        "removal"
+      ],
+      "vulnerable_tags": [
+        "burn",
+        "strike"
+      ],
+      "penalized_tags": [
+        "stat_buff"
+      ]
+    },
+    "Gangplank": {
+      "name": "Gangplank",
+      "stars": 2.0,
+      "map_type": "World Adventure",
+      "threat_description": "2-Star Map. Keg spams and high burn damage to Nexus.",
+      "counter_tags": [
+        "burn",
+        "aggro",
+        "spellshield",
+        "removal"
+      ],
+      "vulnerable_tags": [
+        "tempo",
+        "removal"
+      ],
+      "penalized_tags": [
+        "self_damage"
+      ]
+    },
+    "Thresh": {
+      "name": "Thresh",
+      "stars": 3.0,
+      "map_type": "World Adventure",
+      "threat_description": "3-Star Map. Captures your units and scales vaults.",
+      "counter_tags": [
+        "burn",
+        "spellshield",
+        "summon"
+      ],
+      "vulnerable_tags": [
+        "burn",
+        "summon"
+      ],
+      "penalized_tags": [
+        "stat_buff"
+      ]
+    },
+    "Kai'Sa": {
+      "name": "Kai'Sa",
+      "stars": 3.5,
+      "map_type": "World Adventure",
+      "threat_description": "3.5-Star Map. Spams evolved keywords on units.",
+      "counter_tags": [
+        "overwhelm",
+        "stun",
+        "removal"
+      ],
+      "vulnerable_tags": [
+        "stun",
+        "board_clear"
+      ],
+      "penalized_tags": [
+        "slow_ramp"
+      ]
+    },
+    "Aurelion Sol": {
+      "name": "Aurelion Sol",
+      "stars": 4.0,
+      "map_type": "World Adventure",
+      "threat_description": "4-Star Map. Spams legendary powers and champions turn 1.",
+      "counter_tags": [
+        "fast_kill",
+        "strike",
+        "otk",
+        "rally",
+        "nexus_damage"
+      ],
+      "vulnerable_tags": [
+        "burn",
+        "strike",
+        "rally",
+        "otk"
+      ],
+      "penalized_tags": [
+        "late_game",
+        "rng_buff"
+      ]
+    },
+    "Lissandra": {
+      "name": "Lissandra",
+      "stars": 5.0,
+      "map_type": "World Adventure",
+      "threat_description": "5-Star Map. Buries your units in Ice Tombs, increases card costs.",
+      "counter_tags": [
+        "overwhelm",
+        "spellshield",
+        "stat_buff",
+        "instant_impact"
+      ],
+      "vulnerable_tags": [
+        "overwhelm",
+        "spellshield",
+        "stat_buff"
+      ],
+      "penalized_tags": [
+        "draw",
+        "spell",
+        "cheap_spam"
+      ]
+    },
+    "Swain": {
+      "name": "Swain",
+      "stars": 5.5,
+      "map_type": "World Adventure",
+      "threat_description": "5.5-Star Map. Heavy board wipes and tactical direct Nexus damage.",
+      "counter_tags": [
+        "fast_kill",
+        "tempo",
+        "spellshield",
+        "regenerate",
+        "lifesteal"
+      ],
+      "vulnerable_tags": [
+        "fast_kill",
+        "spellshield",
+        "strike"
+      ],
+      "penalized_tags": [
+        "slow_ramp",
+        "sacrifice"
+      ]
+    },
+    "Nightmare Lissandra (6.5★)": {
+      "name": "Nightmare Lissandra (6.5★)",
+      "stars": 6.5,
+      "map_type": "Nightmare",
+      "threat_description": "6.5-Star Nightmare. Deadly + I am Inevitable. Foes have +100% stats and Buried in Ice turn 1.",
+      "counter_tags": [
+        "overwhelm",
+        "fast_kill",
+        "titanic",
+        "burst",
+        "spellshield"
+      ],
+      "vulnerable_tags": [
+        "fast_kill",
+        "titanic"
+      ],
+      "penalized_tags": [
+        "draw",
+        "slow_ramp"
+      ]
+    },
+    "Nightmare Swain (6.5★)": {
+      "name": "Nightmare Swain (6.5★)",
+      "stars": 6.5,
+      "map_type": "Nightmare",
+      "threat_description": "6.5-Star Nightmare. Deadly + Unyielding. Units deal double damage and Nexus takes 3 every turn.",
+      "counter_tags": [
+        "fast_kill",
+        "strike",
+        "spellshield",
+        "lifesteal",
+        "nexus_damage"
+      ],
+      "vulnerable_tags": [
+        "burn",
+        "strike"
+      ],
+      "penalized_tags": [
+        "sustain",
+        "sacrifice"
+      ]
+    }
+  },
+  "combos": [
+    {
+      "relics": [
+        "The Loose Cannon's Payload",
+        "Luden's Tempest"
+      ],
+      "bonus": 4.0,
+      "description": "Payload Pow-Pows deal +1 damage each, clearing board and burning Nexus."
+    },
+    {
+      "relics": [
+        "Stalker's Blade",
+        "Gatebreaker"
+      ],
+      "bonus": 3.5,
+      "description": "Double summon strike: clears the strongest enemy and damages Nexus."
+    },
+    {
+      "relics": [
+        "Tempest Blade",
+        "Crownguard Inheritance"
+      ],
+      "bonus": 4.5,
+      "description": "Level-up stuns entire enemy board and gives instant Rally for lethal."
+    },
+    {
+      "relics": [
+        "Disciple of Shadows",
+        "Corrupted Star Fragment"
+      ],
+      "bonus": 4.0,
+      "description": "Cheap champion drop combined with consuming surviving allies for massive stats."
+    },
+    {
+      "relics": [
+        "The Star Forge",
+        "Chosen by the Stars"
+      ],
+      "bonus": 4.0,
+      "description": "Early titanic mana acceleration straight into empowered fated keyword devastation."
+    },
+    {
+      "relics": [
+        "Guardian's Orb",
+        "Guardian's Orb"
+      ],
+      "bonus": 3.0,
+      "description": "Exponential deck item stacking on multiple summon triggers."
+    },
+    {
+      "relics": [
+        "Echoing Spirit",
+        "Lost Chapter"
+      ],
+      "bonus": 3.0,
+      "description": "Spell mana refill perfectly casts discounted champion spells repeatedly."
+    },
+    {
+      "relics": [
+        "Chemtech Duplicator",
+        "The Grand General's Counterplan"
+      ],
+      "bonus": 3.5,
+      "description": "Generates champion spell each round and doubles it after 6 mana."
+    },
+    {
+      "relics": [
+        "Oath of the Guardians",
+        "Star Gem"
+      ],
+      "bonus": 4.5,
+      "description": "Level 2 Champions cost 2 less and flood the board."
+    },
+    {
+      "relics": [
+        "Starforged Gauntlets",
+        "Luminous Orb"
+      ],
+      "bonus": 4.0,
+      "description": "Luminous Orb activates Titanic threshold for +1 starting mana gem."
+    },
+    {
+      "relics": [
+        "Echoing Spirit",
+        "The Grand General's Counterplan"
+      ],
+      "bonus": 3.5,
+      "description": "Infinite discounted champion spell generation every round."
+    },
+    {
+      "relics": [
+        "Chosen by the Stars",
+        "Corrupted Star Fragment"
+      ],
+      "bonus": 3.5,
+      "description": "Feast on allies to instantly reach Empowered 10 keywords."
+    },
+    {
+      "relics": [
+        "The Beast Within",
+        "Spirit of the Buhru"
+      ],
+      "bonus": 3.5,
+      "description": "Full board overwhelm and keyword saturation."
+    }
+  ],
+  "synergies": {
+    "Jinx": {
+      "The Loose Cannon's Payload": 12.0,
+      "The Scourge Stash": 10.5,
+      "Luden's Tempest": 9.5,
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Yasuo": {
+      "Everfrost": 12.0,
+      "Yasuo's Windblade": 10.5,
+      "Tempest Blade": 9.5,
+      "The Loose Cannon's Payload": 4.5,
+      "Stalker's Blade": 4.5,
+      "Swain's Ravenous Flock": 4.5
+    },
+    "Aurelion Sol": {
+      "The Star Forge": 12.0,
+      "Chosen by the Stars": 10.5,
+      "Archangel's Staff": 9.5
+    },
+    "Viego": {
+      "Disciple of Shadows": 12.0,
+      "Corrupted Star Fragment": 10.5,
+      "Succubus's Brand": 9.5
+    },
+    "Swain": {
+      "Swain's Ravenous Flock": 12.0,
+      "Gatebreaker": 10.5,
+      "The Scourge Stash": 9.5
+    },
+    "Nidalee": {
+      "Crownguard Inheritance": 12.0,
+      "Lost Chapter": 10.5,
+      "The Beast Within": 9.5,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Jax": {
+      "The Grandmaster's Ogre": 11.0,
+      "Galeforce": 9.5,
+      "Bounty Hunter's Renown": 8.5
+    },
+    "Lux: Illuminated": {
+      "Lux's Incandescent Baton": 11.0,
+      "Spirit of the Buhru": 9.5,
+      "Chemtech Duplicator": 8.5,
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Ashe": {
+      "The Grandmaster's Ogre": 11.0,
+      "Archangel's Staff": 9.5,
+      "Laurent Bladerack": 8.5,
+      "The Loose Cannon's Payload": 4.5,
+      "Stalker's Blade": 4.5,
+      "Tempest Blade": 4.5,
+      "Yasuo's Windblade": 4.5,
+      "Swain's Ravenous Flock": 4.5,
+      "Everfrost": 4.5
+    },
+    "Annie": {
+      "The Grandmaster's Ogre": 11.0,
+      "Luden's Tempest": 9.5,
+      "Dreadway Chase Gun": 8.5
+    },
+    "Ambessa": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Caitlyn": {},
+    "Ekko": {},
+    "Morgana": {
+      "The Loose Cannon's Payload": 4.5,
+      "Stalker's Blade": 4.5,
+      "Tempest Blade": 4.5,
+      "Yasuo's Windblade": 4.5,
+      "Swain's Ravenous Flock": 4.5,
+      "Everfrost": 4.5
+    },
+    "Elder Dragon": {},
+    "Veigar": {
+      "The Loose Cannon's Payload": 4.5,
+      "Stalker's Blade": 4.5,
+      "Tempest Blade": 4.5,
+      "Yasuo's Windblade": 4.5,
+      "Swain's Ravenous Flock": 4.5,
+      "Everfrost": 4.5
+    },
+    "Gwen": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Aatrox": {
+      "Troll King's Crown": 6.0,
+      "Spirit of the Buhru": 6.0,
+      "The Grandmaster's Ogre": 6.0,
+      "Chosen by the Stars": 6.0,
+      "The Beast Within": 6.0,
+      "The Star Forge": 6.0,
+      "Starforged Gauntlets": 6.0,
+      "Luminous Orb": 6.0
+    },
+    "Ahri": {},
+    "Bard": {},
+    "Darius": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Diana": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Elise": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Evelynn": {
+      "Yasuo's Windblade": 5.0,
+      "Disciple of Shadows": 5.0,
+      "Corrupted Star Fragment": 5.0,
+      "Succubus's Brand": 5.0,
+      "Bounty Hunter's Renown": 5.0,
+      "The Grandmaster's Ogre": 5.0,
+      "Chosen by the Stars": 5.0,
+      "The Beast Within": 5.0,
+      "Packed Powder": 5.0,
+      "Secret Technique": 5.0,
+      "Fear-Cleaving Axe": 5.0,
+      "Luminous Orb": 5.0,
+      "Wicked Harvest": 5.0,
+      "Voidborne Carapace": 5.0
+    },
+    "Garen": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Gnar": {},
+    "Illaoi": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Jack": {},
+    "Janna": {},
+    "Jhin": {
+      "The Loose Cannon's Payload": 4.5,
+      "Stalker's Blade": 4.5,
+      "Tempest Blade": 4.5,
+      "Yasuo's Windblade": 4.5,
+      "Swain's Ravenous Flock": 4.5,
+      "Everfrost": 4.5
+    },
+    "Kai'Sa": {},
+    "Kayn": {},
+    "Kennen": {},
+    "Kindred": {
+      "Yasuo's Windblade": 5.0,
+      "Disciple of Shadows": 5.0,
+      "Corrupted Star Fragment": 5.0,
+      "Succubus's Brand": 5.0,
+      "Bounty Hunter's Renown": 5.0,
+      "The Grandmaster's Ogre": 5.0,
+      "Chosen by the Stars": 5.0,
+      "The Beast Within": 5.0,
+      "Packed Powder": 5.0,
+      "Secret Technique": 5.0,
+      "Fear-Cleaving Axe": 5.0,
+      "Luminous Orb": 5.0,
+      "Wicked Harvest": 5.0,
+      "Voidborne Carapace": 5.0
+    },
+    "Leblanc": {},
+    "Lee Sin": {
+      "Luden's Tempest": 5.0,
+      "Chemtech Duplicator": 5.0,
+      "The Grand General's Counterplan": 5.0,
+      "Archangel's Staff": 5.0,
+      "Dreadway Chase Gun": 5.0,
+      "Lux's Incandescent Baton": 5.0,
+      "Echoing Spirit": 5.0,
+      "Secret Technique": 5.0,
+      "Icon of Valhir": 5.0,
+      "Lost Chapter": 5.0
+    },
+    "Leona": {
+      "The Loose Cannon's Payload": 4.5,
+      "Stalker's Blade": 4.5,
+      "Tempest Blade": 4.5,
+      "Yasuo's Windblade": 4.5,
+      "Swain's Ravenous Flock": 4.5,
+      "Everfrost": 4.5
+    },
+    "Lillia": {},
+    "Lux": {
+      "Luden's Tempest": 5.0,
+      "Chemtech Duplicator": 5.0,
+      "The Grand General's Counterplan": 5.0,
+      "Archangel's Staff": 5.0,
+      "Dreadway Chase Gun": 5.0,
+      "Lux's Incandescent Baton": 5.0,
+      "Echoing Spirit": 5.0,
+      "Secret Technique": 5.0,
+      "Icon of Valhir": 5.0,
+      "Lost Chapter": 5.0
+    },
+    "Master Yi": {
+      "Luden's Tempest": 5.0,
+      "Chemtech Duplicator": 5.0,
+      "The Grand General's Counterplan": 5.0,
+      "Archangel's Staff": 5.0,
+      "Dreadway Chase Gun": 5.0,
+      "Lux's Incandescent Baton": 5.0,
+      "Echoing Spirit": 5.0,
+      "Secret Technique": 5.0,
+      "Icon of Valhir": 5.0,
+      "Lost Chapter": 5.0
+    },
+    "Miss Fortune": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Mordekaiser": {
+      "Yasuo's Windblade": 5.0,
+      "Disciple of Shadows": 5.0,
+      "Corrupted Star Fragment": 5.0,
+      "Succubus's Brand": 5.0,
+      "Bounty Hunter's Renown": 5.0,
+      "The Grandmaster's Ogre": 5.0,
+      "Chosen by the Stars": 5.0,
+      "The Beast Within": 5.0,
+      "Packed Powder": 5.0,
+      "Secret Technique": 5.0,
+      "Fear-Cleaving Axe": 5.0,
+      "Luminous Orb": 5.0,
+      "Wicked Harvest": 5.0,
+      "Voidborne Carapace": 5.0
+    },
+    "Nami": {
+      "Luden's Tempest": 5.0,
+      "Chemtech Duplicator": 5.0,
+      "The Grand General's Counterplan": 5.0,
+      "Archangel's Staff": 5.0,
+      "Dreadway Chase Gun": 5.0,
+      "Lux's Incandescent Baton": 5.0,
+      "Echoing Spirit": 5.0,
+      "Secret Technique": 5.0,
+      "Icon of Valhir": 5.0,
+      "Lost Chapter": 5.0
+    },
+    "Nasus": {
+      "Yasuo's Windblade": 5.0,
+      "Disciple of Shadows": 5.0,
+      "Corrupted Star Fragment": 5.0,
+      "Succubus's Brand": 5.0,
+      "Bounty Hunter's Renown": 5.0,
+      "The Grandmaster's Ogre": 5.0,
+      "Chosen by the Stars": 5.0,
+      "The Beast Within": 5.0,
+      "Packed Powder": 5.0,
+      "Secret Technique": 5.0,
+      "Fear-Cleaving Axe": 5.0,
+      "Luminous Orb": 5.0,
+      "Wicked Harvest": 5.0,
+      "Voidborne Carapace": 5.0
+    },
+    "Neeko": {},
+    "Nilah": {},
+    "Norra": {},
+    "Ornn": {
+      "Troll King's Crown": 6.0,
+      "Spirit of the Buhru": 6.0,
+      "The Grandmaster's Ogre": 6.0,
+      "Chosen by the Stars": 6.0,
+      "The Beast Within": 6.0,
+      "The Star Forge": 6.0,
+      "Starforged Gauntlets": 6.0,
+      "Luminous Orb": 6.0
+    },
+    "Pyke": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Samira": {},
+    "Sett": {},
+    "Tahm Kench": {},
+    "Taliyah": {},
+    "Teemo": {
+      "The Loose Cannon's Payload": 5.0,
+      "Luden's Tempest": 5.0,
+      "Gatebreaker": 5.0,
+      "Dreadway Chase Gun": 5.0,
+      "Swain's Ravenous Flock": 5.0,
+      "Shock & Awe": 5.0,
+      "Icon of Valhir": 5.0
+    },
+    "Thresh": {
+      "Yasuo's Windblade": 5.0,
+      "Disciple of Shadows": 5.0,
+      "Corrupted Star Fragment": 5.0,
+      "Succubus's Brand": 5.0,
+      "Bounty Hunter's Renown": 5.0,
+      "The Grandmaster's Ogre": 5.0,
+      "Chosen by the Stars": 5.0,
+      "The Beast Within": 5.0,
+      "Packed Powder": 5.0,
+      "Secret Technique": 5.0,
+      "Fear-Cleaving Axe": 5.0,
+      "Luminous Orb": 5.0,
+      "Wicked Harvest": 5.0,
+      "Voidborne Carapace": 5.0
+    },
+    "Vayne": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Vex": {
+      "The Loose Cannon's Payload": 4.5,
+      "Stalker's Blade": 4.5,
+      "Tempest Blade": 4.5,
+      "Yasuo's Windblade": 4.5,
+      "Swain's Ravenous Flock": 4.5,
+      "Everfrost": 4.5
+    },
+    "Vi": {
+      "Crownguard Inheritance": 4.0,
+      "Galeforce": 4.0,
+      "Troll King's Crown": 4.0,
+      "Spirit of the Buhru": 4.0,
+      "The Grandmaster's Ogre": 4.0,
+      "Chosen by the Stars": 4.0,
+      "The Beast Within": 4.0,
+      "Epic: Spectral Scissors": 4.0,
+      "Shock & Awe": 4.0
+    },
+    "Volibear": {
+      "Troll King's Crown": 6.0,
+      "Spirit of the Buhru": 6.0,
+      "The Grandmaster's Ogre": 6.0,
+      "Chosen by the Stars": 6.0,
+      "The Beast Within": 6.0,
+      "The Star Forge": 6.0,
+      "Starforged Gauntlets": 6.0,
+      "Luminous Orb": 6.0
+    },
+    "Yuumi": {}
+  }
+}

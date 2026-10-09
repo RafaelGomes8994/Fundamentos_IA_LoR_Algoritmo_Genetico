@@ -1,0 +1,40 @@
+Element_Type,Name,Subtype_Or_Rarity,Core_Attribute_Or_Effect,Difficulty_Or_Cost
+Champion,Jinx,Aggressive,"Discards hand, burns Nexus with Rockets",Easy
+Champion,Yasuo,Control,"Stuns and recalls enemies, slashes them",Medium
+Champion,Aurelion Sol,Defensive / Celestial,"Invokes huge cosmic entities, absolute stat scaling",Medium
+Champion,Ambessa,Aggressive,"Flank power, barriers, multi-unit attacks",Easy
+Champion,Ashe,Control,"Frostbites enemies, locks board",Medium
+Champion,Caitlyn,Combo,Flashbomb traps passive damage,Medium
+Champion,Ekko,Combo,"Predict mechanic, spell recursion",Medium
+Champion,Lux: Illuminated,Aggressive,Spam barrier and boost stats with spells,Easy
+Champion,Morgana,Control,"Curses enemies with Shackle, stops attacks",Medium
+Champion,Nidalee,Aggressive,"Transforms units, ambush tactics",Hard
+Champion,Elder Dragon,Defensive,"Cannot be stopped, high cost devastation",Hard
+Champion,Veigar,Control,Increases Darkness damage every round,Medium
+Champion,Gwen,Aggressive,Hallowed buff lifesteal and high scaling,Easy
+Relic,The Loose Cannon's Payload,Rare,"When I'm summoned, discard your hand then replace it with Pow-Pows",N/A
+Relic,Luden's Tempest,Rare,All your spells and Skills deal 1 extra damage,N/A
+Relic,Galeforce,Rare,Scout. Round End: Recall me,N/A
+Relic,Guardian's Orb,Rare,"When I'm summoned, grant 3 random items to cards in deck",N/A
+Relic,Chosen by the Stars,Epic,"Fated, Empowered 10: Overwhelm, Regenerate, and Challenger",N/A
+Relic,Echoing Spirit,Epic,Create 7 copies of me in your deck. Reduce my spell cost by 1,N/A
+Relic,The Beast Within,Epic,Allies with Subtypes have +1|+1 and Overwhelm,N/A
+Relic,Everfrost,Common,"When I'm summoned, stun the strongest enemy",N/A
+Relic,Lost Chapter,Common,"When I'm summoned, refill your spell mana",N/A
+Relic,Z-Drive Prototype,Common,Start adventure with +2 rerolls,N/A
+Power,Perfect Manaflow,Legendary,Game Start: Get 1 extra mana gem permanently,N/A
+Power,Can't Stop; Won't Stop,Epic,Allied buffs (except barrier/stat caps) are permanent,N/A
+Power,Evolution,Rare,Allies have +1|+1 for each keyword they possess,N/A
+Power,Sorcery,Rare,Round Start: Refill your spell mana,N/A
+Power,Domination,Rare,Round Start: Rally,N/A
+Power,Hold It,Common,Round Start: Stun the strongest enemy this round,N/A
+Power,Enfeeblement,Common,"When you damage an enemy, reduce its Power by that much",N/A
+Power,Higher Education,Common,"When you draw a card, grant allies +1|+0 this round",N/A
+Boss,Teemo,World Adventure,1-Star Map. Spams Puffcaps in your deck,1-Star
+Boss,Lulu,World Adventure,1.5-Star Map. Transforms your blockers into 1/1 Pixels,1.5-Star
+Boss,Gangplank,World Adventure,2-Star Map. Keg spams and high burn damage,2-Star
+Boss,Thresh,World Adventure,3-Star Map. Captures your units and scales vaults,3-Star
+Boss,Kai'Sa,World Adventure,3.5-Star Map. Spams evolved keywords on units,3.5-Star
+Boss,Aurelion Sol,World Adventure,4-Star Map. Spams legendary powers and champions turn 1,4-Star
+Boss,Lissandra,World Adventure,"5-Star Map. Buries your units in Ice Tombs, increases card costs",5-Star
+Boss,Swain,World Adventure,5.5-Star Map. Heavy board wipes and tactical stuns,5.5-Star
