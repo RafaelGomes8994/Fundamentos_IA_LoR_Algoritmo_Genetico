@@ -1,0 +1,73 @@
+%%
+%% SBC style file
+%%
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{sbc-template}[2003/05/29]
+
+\RequirePackage{geometry}
+\geometry{a4paper,top=3.5cm,bottom=2.5cm,left=3.0cm,right=3.0cm}
+
+\RequirePackage{times}
+
+\pagestyle{empty}
+
+\newcommand{\email}[1]{\texttt{#1}}
+\newcommand{\inst}[1]{$^{#1}$}
+
+\renewenvironment{abstract}{%
+      \begin{center}%
+        {\bfseries \abstractname\vspace{-.5em}\vspace{\z@}}%
+      \end{center}%
+      \quotation}
+    {\endquotation}
+
+\newenvironment{resumo}{%
+      \begin{center}%
+        {\bfseries Resumo\vspace{-.5em}\vspace{\z@}}%
+      \end{center}%
+      \quotation}
+    {\endquotation}
+
+\def\address#1{\gdef\@address{#1}}
+\def\@address{}
+
+\def\maketitle{\par
+ \begingroup
+   \renewcommand\thefootnote{\fnsymbol{footnote}}%
+   \def\@makefnmark{\hbox to\z@{$\m@th^{\@thefnmark}$\hss}}%
+   \long\def\@makefntext##1{\parindent 1em\noindent
+            \hbox to1.8em{\hss$\m@th^{\@thefnmark}$}##1}%
+   \if@twocolumn
+     \twocolumn[\@maketitle]%
+   \else
+     \newpage
+     \global\@topnum\z@
+     \@maketitle
+   \fi
+   \thispagestyle{empty}\@thanks
+ \endgroup
+ \setcounter{footnote}{0}%
+ \let\maketitle\relax
+ \let\@maketitle\relax
+ \gdef\@thanks{}\gdef\@author{}\gdef\@title{}\gdef\@address{}\let\address\relax}
+
+\def\@maketitle{%
+  \newpage
+  \null
+  \begin{center}%
+    \let \footnote \thanks
+    {\Large\bfseries \@title \par}%
+    \vskip 1.5em%
+    {\normalsize
+      \lineskip .5em%
+      \begin{tabular}[t]{c}%
+        \@author
+      \end{tabular}\par}%
+    \vskip 1em%
+    {\small \@address \par}%
+  \end{center}%
+  \par
+  \vskip 1.5em}
+
+\endinput
+

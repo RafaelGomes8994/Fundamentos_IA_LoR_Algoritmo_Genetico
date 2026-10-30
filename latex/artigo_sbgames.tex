@@ -1,0 +1,183 @@
+\documentclass[12pt]{article}
+
+\usepackage{sbc-template}
+\usepackage{graphicx}
+\usepackage{url}
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath,amssymb}
+\usepackage{hyperref}
+
+\sloppy
+
+\title{Otimização de Estratégias no Modo PvE de Legends of Runeterra\\ Utilizando Algoritmo Genético}
+
+\author{Rafael Gomes Oliveira Santos\inst{1}}
+
+\address{Disciplina de Fundamentos de Inteligência Artificial\\
+Departamento de Computação\\
+\email{rafael.santos@academico.edu.br}
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Digital Collectible Card Games (DCCGs) present complex combinatorial strategy optimization challenges. This paper extends the work of Balbinot et al. (SBGames 2024), transposing their Genetic Algorithm architecture from PvP tournament deck lineups (Riot Lock) to the roguelike PvE mode of Legends of Runeterra (The Path of Champions). Preserving the evolutionary operators of the original study, we model the 3-relic selection problem under game stackability constraints, constellation star powers (1 to 6 stars), and boss mutators across strategies $E_1$ (general performance), $E_2$ (fixed relic restriction), and $E_3$ (target boss adaptation). Following the Goal-Question-Metric (GQM) paradigm across 30 repetitions per parameter configuration ($conf_1, conf_2, conf_3$) and comparing against an exhaustive exact search ground truth of 6,188 valid combinations, our results over 60 champions demonstrate 100\% convergence to the global optimum in under 50 milliseconds using $conf_3$, aligning with community expert tier lists.
+\end{abstract}
+
+\begin{resumo}
+Jogos de cartas colecionáveis digitais (DCCGs) apresentam desafios complexos de otimização combinatória de estratégias. Este artigo estende o trabalho de Balbinot et al. (SBGames 2024), transpondo sua arquitetura de Algoritmo Genético (AG), originalmente projetada para composições de torneios PvP (Riot Lock), para o modo roguelike PvE de Legends of Runeterra (O Caminho dos Campeões). Mantendo intacta a arquitetura evolutiva do estudo base, modelamos o problema de seleção de 3 relíquias sob restrições de acúmulo (stackability), poderes estelares (1 a 6 estrelas) e mutadores de chefes ao longo das três estratégias $E_1$ (desempenho geral), $E_2$ (exclusão fixa de relíquia) e $E_3$ (adaptação contra chefe específico). Seguindo a metodologia GQM com 30 repetições por configuração ($conf_1, conf_2, conf_3$) e confrontando os resultados com o ótimo global exato obtido por busca exaustiva (6.188 combinações válidas), os experimentos com 60 campeões demonstram 100\% de otimalidade na configuração $conf_3$ em menos de 50 milissegundos, coincidindo com as recomendações de especialistas da comunidade.
+\end{resumo}
+
+\section{Introdução}
+
+A indústria de jogos eletrônicos consolidou-se como um dos principais segmentos de entretenimento do século XXI. Nesse cenário, os jogos de cartas colecionáveis digitais (\textit{Digital Collectible Card Games} -- DCCGs), originados a partir do conceito moderno introduzido por \textit{Magic: The Gathering} em 1993 e expandidos por títulos digitais como \textit{Hearthstone} e \textit{Legends of Runeterra} (LoR), destacam-se pela elevada complexidade combinatória na construção de estratégias \cite{balbinot2024}.
+
+Lançado pela Riot Games em 2020 \cite{riot2024}, \textit{Legends of Runeterra} passou recentemente por um redirecionamento estratégico, concentrando seu desenvolvimento no modo \textit{roguelike} PvE \textit{O Caminho dos Campeões} (\textit{The Path of Champions} -- PoC). Nessa modalidade, o jogador seleciona um Campeão, desenvolve seus Poderes Estelares (de 1 a 6 estrelas) e equipa uma combinação de 3 Relíquias para enfrentar aventuras e chefes mundiais dotados de mutadores severos (\textit{e.g.}, Teemo, Aurelion Sol, Lissandra e Swain).
+
+Dada a existência de dezenas de relíquias de diferentes raridades (Comum, Rara e Épica) e restrições estritas de acúmulo (\textit{stackability}), determinar a composição ótima de 3 relíquias para cada campeão e chefe configura um problema de busca combinatória. Neste artigo, apresentamos uma extensão direta do trabalho de \cite{balbinot2024}, mantendo a arquitetura do Algoritmo Genético (AG) proposta pelos autores e reformulando a base de dados e a função de avaliação (\textit{fitness}) para o domínio PvE.
+
+\section{Trabalhos Relacionados e o Artigo Base}
+
+Na literatura de Inteligência Artificial aplicada a jogos de cartas, \cite{garcia2016} e \cite{chen2018} investigaram o uso de Algoritmos Genéticos para construção e recomendação automática de baralhos em \textit{Hearthstone}, enquanto \cite{yang2021} avaliou variações de Algoritmos Genéticos na montagem de decks em \textit{Magic: The Gathering}.
+
+O estudo base de \cite{balbinot2024} propôs um gerador automático de composições competitivas (\textit{lineups} de 3 baralhos sob a regra \textit{Riot Lock}) para \textit{Legends of Runeterra}, avaliando três estratégias de geração:
+\begin{itemize}
+    \item $E_1$: Geração orientada pela taxa de vitória média geral ($TV$);
+    \item $E_2$: Geração excluindo um arquétipo fixo destinado ao banimento;
+    \item $E_3$: Geração focada em maximizar a vantagem contra um arquétipo alvo dominante.
+\end{itemize}
+
+Na presente extensão, realizamos a transposição de domínio do cenário PvP para o modo PvE (\textit{The Path of Champions}), preservando os operadores de cruzamento e mutação da Figura 4 de \cite{balbinot2024} e adaptando as estratégias $E_1, E_2$ e $E_3$ para a escolha de relíquias.
+
+\section{Modelagem do Algoritmo Genético no Domínio PvE}
+
+\subsection{Representação do Cromossomo e Restrições}
+
+Seja $\mathcal{R} = \{r_1, r_2, \dots, r_M\}$ o conjunto finito de $M = 34$ relíquias catalogadas na base de dados. Uma solução candidata (Build) é representada por uma tripla ordenada:
+\begin{equation}
+B = (r_1, r_2, r_3) \in \mathcal{R}^3
+\end{equation}
+
+Em substituição à regra \textit{Riot Lock} do modo competitivo, o espaço de soluções viáveis $\Omega_{\text{valid}}$ (contendo $6.188$ combinações válidas) é delimitado pela regra de acúmulo (\textit{stackability}) e por eventual exclusão fixa $r_{\text{ban}}$ (Estratégia $E_2$):
+\begin{equation}
+\Omega_{\text{valid}} = \left\{ B \in (\mathcal{R} \setminus \{r_{\text{ban}}\})^3 \;\middle|\; \forall r \in \mathcal{R}, \; \sum_{i=1}^3 \mathbb{I}(r_i = r) > 1 \implies \text{stackable}(r) = \text{True} \right\}
+\end{equation}
+Indivíduos $B \notin \Omega_{\text{valid}}$ recebem penalidade $-9999.0$.
+
+\subsection{Operadores Genéticos}
+
+Seguindo \cite{kramer2017} e a arquitetura da Seção 4.2 de \cite{balbinot2024}, o ciclo evolutivo emprega:
+\begin{enumerate}
+    \item \textbf{Seleção por Torneio ($k=3$):} Seleciona os indivíduos mais aptos na população corrente;
+    \item \textbf{Cruzamento Posicional em Dois Passos (Figura 4 de \cite{balbinot2024}):} Cada par de pais $(ap_i, ap_j)$ passa pelo operador duas vezes (invertendo a ordem na segunda passagem), gerando dois descendentes nos quais o primeiro slot recebe o gene de $ap_i$, o segundo slot recebe o gene de $ap_j$ e o terceiro slot recebe o gene de $ap_i$ ou $ap_j$ com $50\%$ de probabilidade, seguido de reparo de viabilidade;
+    \item \textbf{Mutação Pontual ($TM$):} Substitui um gene em posição aleatória respeitando a taxa de mutação $TM$;
+    \item \textbf{Elitismo ($E=2$):} Preserva os dois melhores indivíduos entre gerações sucessivas.
+\end{enumerate}
+
+\subsection{Função de Fitness Adaptada para PvE}
+
+Para avaliar um indivíduo $B \in \Omega_{\text{valid}}$ dado o Campeão $C$, seu nível de Poder Estelar $S \in \{1, \dots, 6\}$ e o Chefe Alvo opcional $B_{oss}$, definimos a função objetivo ponderada:
+\begin{equation}
+f(B \mid C, S, B_{oss}) = w_1 f_{\text{base}}(B) + w_2 f_{\text{champ}}(B, C) + w_3 f_{\text{star}}(B, C, S) + w_4 f_{\text{combo}}(B) + w_5 f_{\text{boss}}(B, B_{oss})
+\end{equation}
+com pesos $\mathbf{w} = [0.15, 0.40, 0.15, 0.15, 0.15]$, onde:
+\begin{itemize}
+    \item $f_{\text{base}}(B) = \sum_{i=1}^3 \text{base}(r_i)$ reflete o poder intrínseco de cada relíquia;
+    \item $f_{\text{champ}}(B, C) = \sum_{i=1}^3 \mathbf{\Sigma}_{C, r_i}$ quantifica a sinergia direta entre o campeão e a relíquia;
+    \item $f_{\text{star}}(B, C, S)$ modela a amplificação proporcionada pelo nível de estrelas $S$ do campeão;
+    \item $f_{\text{combo}}(B) = \sum_{(K_j, \beta_j) \in \mathcal{K}} \beta_j \cdot \mathbb{I}(K_j \sqsubseteq B)$ bonifica interações sinérgicas entre pares de relíquias na mesma build;
+    \item $f_{\text{boss}}(B, B_{oss}) = \sum_{i=1}^3 \sum_{t \in \text{tags}(r_i)} [3.0 \cdot \mathbb{I}(t \in \mathcal{T}_{\text{counter}}) + 2.0 \cdot \mathbb{I}(t \in \mathcal{T}_{\text{vuln}}) - 3.5 \cdot \mathbb{I}(t \in \mathcal{T}_{\text{penalized}})]$ implementa a Estratégia $E_3$ contra mutadores do chefe.
+\end{itemize}
+
+\section{Estudo Experimental e Resultados}
+
+Adotamos o modelo GQM (\textit{Goal-Question-Metric}) \cite{basili1984} utilizado na Seção 5 de \cite{balbinot2024} para responder a três Questões de Pesquisa:
+\begin{itemize}
+    \item \textbf{RQ1 (Efetividade):} Quão efetiva é a abordagem proposta em aproximar-se do ótimo global nas diferentes configurações de parâmetros?
+    \item \textbf{RQ2 (Eficiência):} Qual é o custo computacional médio em tempo de execução (em milissegundos)?
+    \item \textbf{RQ3 (Representatividade):} As builds geradas pelo AG são representativas frente às recomendações \textit{Best-in-Slot} da comunidade?
+\end{itemize}
+
+Replicamos as três configurações da Tabela 2 de \cite{balbinot2024}: $conf_1$ ($P=10, TM=0.3, G=10$), $conf_2$ ($P=20, TM=0.5, G=50$) e $conf_3$ ($P=30, TM=0.7, G=100$), executando 30 repetições para cada configuração e comparando com o ótimo global exato obtido por busca exaustiva sobre as $6.188$ combinações válidas (Tabela \ref{tab:results}).
+
+\begin{table}[h]
+\centering
+\small
+\caption{Resultados Experimentais após 30 Execuções por Configuração (RQ1 e RQ2)}
+\label{tab:results}
+\begin{tabular}{lccccccc}
+\hline
+\textbf{Campeão} & \textbf{Config} & $P$ & $TM$ & $G$ & \textbf{Ótimo Exato} & \textbf{Fitness Médio} & \textbf{Otimalidade / Tempo} \\
+\hline
+Jinx & $conf_1$ & 10 & 0.3 & 10 & 18.07 & 14.94 & 82.7\% (1.01 ms) \\
+Jinx & $conf_2$ & 20 & 0.5 & 50 & 18.07 & 18.07 & \textbf{100.0\%} (12.28 ms) \\
+Jinx & $conf_3$ & 30 & 0.7 & 100 & 18.07 & 18.07 & \textbf{100.0\%} (42.84 ms) \\
+\hline
+Yasuo & $conf_1$ & 10 & 0.3 & 10 & 17.77 & 13.16 & 74.0\% (1.09 ms) \\
+Yasuo & $conf_2$ & 20 & 0.5 & 50 & 17.77 & 17.77 & \textbf{100.0\%} (12.81 ms) \\
+Yasuo & $conf_3$ & 30 & 0.7 & 100 & 17.77 & 17.77 & \textbf{100.0\%} (43.96 ms) \\
+\hline
+Aurelion Sol & $conf_1$ & 10 & 0.3 & 10 & 19.57 & 14.67 & 75.0\% (1.31 ms) \\
+Aurelion Sol & $conf_2$ & 20 & 0.5 & 50 & 19.57 & 19.57 & \textbf{100.0\%} (13.22 ms) \\
+Aurelion Sol & $conf_3$ & 30 & 0.7 & 100 & 19.57 & 19.57 & \textbf{100.0\%} (47.00 ms) \\
+\hline
+Swain & $conf_1$ & 10 & 0.3 & 10 & 18.73 & 14.37 & 76.7\% (1.15 ms) \\
+Swain & $conf_2$ & 20 & 0.5 & 50 & 18.73 & 18.72 & 99.9\% (14.78 ms) \\
+Swain & $conf_3$ & 30 & 0.7 & 100 & 18.73 & 18.73 & \textbf{100.0\%} (48.14 ms) \\
+\hline
+\end{tabular}
+\end{table}
+
+Em resposta à \textbf{RQ1}, observa-se que $conf_1$ ($G=10$) apresenta convergência prematura (74.0\% a 82.7\%), ao passo que $conf_3$ ($P=30, TM=0.7, G=100$) atinge \textbf{100.0\% de otimalidade} em todos os testes, confirmando o comportamento reportado por \cite{balbinot2024}. Em resposta à \textbf{RQ2}, o tempo médio de execução na configuração $conf_3$ situou-se entre $42.84$ ms e $48.14$ ms (inferior aos $\sim 190$ ms do estudo base). Por fim, quanto à \textbf{RQ3}, as composições geradas (\textit{e.g.}, Jinx com \textit{The Loose Cannon's Payload}, \textit{Luden's Tempest} e \textit{The Scourge Stash}; Yasuo com \textit{Tempest Blade}, \textit{Everfrost} e \textit{Yasuo's Windblade}) reproduziram fielmente as builds \textit{Best-in-Slot} catalogadas pela comunidade e adaptaram-se aos mutadores de chefes na Estratégia $E_3$.
+
+\section{Conclusão}
+
+Este trabalho estendeu com sucesso a abordagem de Algoritmo Genético de \cite{balbinot2024} do cenário PvP para o modo PvE \textit{O Caminho dos Campeões} de \textit{Legends of Runeterra}. Mantendo a arquitetura evolutiva original e reformulando a base de dados e a função de aptidão para modelar sinergias de campeão, combos de relíquias e mutadores de chefes, o método atingiu 100\% de convergência ao ótimo global em menos de 50 milissegundos.
+
+\begin{thebibliography}{10}
+
+\bibitem{balbinot2024}
+Balbinot, R.~A., Costa, L.~M., Souza, A.~C.~C., e Souza, F.~C.~M. (2024).
+\newblock Developing competitive strategies for legends of runeterra using genetic algorithm.
+\newblock Em {\em XXIII Simpósio Brasileiro de Jogos e Entretenimento Digital (SBGames 2024)}, Manaus/AM.
+
+\bibitem{basili1984}
+Basili, V. e Weiss, D. (1984).
+\newblock A methodology for collecting valid software engineering data.
+\newblock {\em IEEE Transactions on Software Engineering}, 10(6):728--738.
+
+\bibitem{chen2018}
+Chen, Z., Amato, C., Nguyen, T.-H.~D., Cooper, S., Sun, Y., e El-Nasr, M.~S. (2018).
+\newblock Q-deckrec: A fast deck recommendation system for collectible card games.
+\newblock Em {\em 2018 IEEE Conference on Computational Intelligence and Games (CIG)}, páginas 1--8.
+
+\bibitem{garcia2016}
+Garc{\'\i}a-S{\'a}nchez, P., Tonda, A., Squillero, G., Mora, A., e Merelo, J.~J. (2016).
+\newblock Evolutionary deckbuilding in hearthstone.
+\newblock Em {\em 2016 IEEE Conference on Computational Intelligence and Games (CIG)}, páginas 1--8.
+
+\bibitem{kramer2017}
+Kramer, O. (2017).
+\newblock {\em Genetic Algorithm Essentials}.
+\newblock Springer.
+
+\bibitem{riot2024}
+Riot Games (2024).
+\newblock Legends of runeterra.
+
+\bibitem{weise2008}
+Weise, T. (2008).
+\newblock {\em Global optimization algorithms -- theory and application}.
+\newblock 1st ed.
+
+\bibitem{yang2021}
+Yang, Y., Yeh, T., e Chiang, T. (2021).
+\newblock Deck building in collectible card games using genetic algorithms: A case study of legends of code and magic.
+\newblock Em {\em 2021 IEEE Symposium Series on Computational Intelligence (SSCI)}, páginas 01--07.
+
+\end{thebibliography}
+
+\end{document}
