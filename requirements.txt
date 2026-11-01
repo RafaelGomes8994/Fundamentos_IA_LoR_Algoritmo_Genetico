@@ -1,0 +1,8 @@
+# Dependências do Projeto — Fundamentos de Inteligência Artificial (COMP/UFS)
+# Otimização de Builds no Legends of Runeterra via Algoritmo Genético
+
+# O núcleo do algoritmo e dos testes utiliza a biblioteca padrão do Python (Python 3.10+)
+
+# Ferramentas auxiliares opcionais para geração de relatórios e manipulação de documentos:
+pypandoc>=1.13
+pypdf>=5.0.0
