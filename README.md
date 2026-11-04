@@ -97,10 +97,13 @@ Fundamentos de IA/
 ├── Docs/
 │   ├── RELATORIO_TECNICO.md                 # Relatório acadêmico completo da extensão
 │   ├── FORMULACAO_MATEMATICA.md             # Detalhamento matemático do cromossomo e fitness
+│   ├── TREINAMENTO_APRESENTACAO.md          # Manual de defesa, roteiro cronometrado e sabatina
 │   ├── APRESENTACAO_RESULTADOS.md           # Síntese estruturada para a apresentação final (5 a 9 min)
 │   ├── GUIA_DE_USO.md                       # Instruções de execução dos experimentos
 │   ├── ALL_CHAMPIONS_BUILDS.md              # Catálogo gerado para os 60 campeões
 │   └── slides/                              # Slides e recursos de apresentação
+├── web/                                     # Interface gráfica interativa (HTML5, CSS3, JS)
+├── web_app.py                               # Servidor web local zero-dependências
 ├── LICENSE                                  # Licença de código aberto (MIT)
 ├── requirements.txt                         # Dependências do projeto
 └── README.md
@@ -141,6 +144,12 @@ python examples/demo_cli.py --champion Yasuo --stars 3 --compare-bosses
 ```powershell
 python examples/run_all_champions.py
 ```
+
+### 5. Iniciar a Interface Web Interativa (Zero Dependências Externas)
+```powershell
+python web_app.py
+```
+*Inicia o servidor HTTP nativo e abre no navegador (`http://localhost:8000`) para experimentação visual de builds, comparação contra chefes e visualização do detalhamento do fitness.*
 
 ---
 

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LoR: Path of Champions — Otimizador de Builds (AG)</title>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <div class="bg-glow"></div>
+
+  <header class="topbar">
+    <div class="container topbar-inner">
+      <div class="brand">
+        <div class="brand-emblem">✦</div>
+        <div>
+          <span class="brand-subtitle">FUNDAMENTOS DE IA • ALGORITMO GENÉTICO</span>
+          <h1 class="brand-title">Legends of Runeterra: Path of Champions</h1>
+        </div>
+      </div>
+      <div class="header-badges">
+        <span class="pill pill-gold" id="dbStatsPill">Carregando base...</span>
+      </div>
+    </div>
+  </header>
+
+  <main class="container main-grid">
+    <!-- PAINEL DE CONTROLE (ESQUERDA) -->
+    <aside class="panel controls-panel">
+      <div class="panel-header">
+        <h2>Parâmetros da Busca</h2>
+        <p>Configure o cenário para evoluir as melhores combinações de relíquias</p>
+      </div>
+
+      <form id="optimizeForm" class="controls-form">
+        <!-- Campeão -->
+        <div class="field-group">
+          <label for="championSelect">Campeão</label>
+          <div class="select-wrapper">
+            <select id="championSelect" required></select>
+          </div>
+          <div id="championPreview" class="context-card"></div>
+        </div>
+
+        <!-- Poder Estelar (1 a 6 estrelas) -->
+        <div class="field-group">
+          <div class="label-row">
+            <label>Poder Estelar</label>
+            <span id="starValueLabel" class="star-badge">3★ Estrelas</span>
+          </div>
+          <div class="star-selector" id="starSelector" role="radiogroup" aria-label="Nível de Poder Estelar">
+            <button type="button" class="star-btn active" data-star="1">★</button>
+            <button type="button" class="star-btn active" data-star="2">★</button>
+            <button type="button" class="star-btn active" data-star="3">★</button>
+            <button type="button" class="star-btn" data-star="4">★</button>
+            <button type="button" class="star-btn" data-star="5">★</button>
+            <button type="button" class="star-btn" data-star="6">★</button>
+          </div>
+          <input type="hidden" id="starsInput" value="3" />
+        </div>
+
+        <!-- Chefe / Aventura (E3) -->
+        <div class="field-group">
+          <label for="bossSelect">
+            Chefe / Aventura Alvo
+            <span class="tag-hint">Estratégia E3</span>
+          </label>
+          <div class="select-wrapper">
+            <select id="bossSelect">
+              <option value="">Nenhum (Estratégia E1 — Uso Geral)</option>
+            </select>
+          </div>
+          <div id="bossPreview" class="context-card hidden"></div>
+        </div>
+
+        <!-- Relíquia Restrita / Banida (E2) -->
+        <div class="field-group">
+          <label for="banRelicSelect">
+            Restringir / Banir Relíquia
+            <span class="tag-hint">Estratégia E2</span>
+          </label>
+          <div class="select-wrapper">
+            <select id="banRelicSelect">
+              <option value="">Nenhuma restrição (Todas liberadas)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Top-K e Hiperparâmetros do AG -->
+        <div class="row-2col">
+          <div class="field-group">
+            <label for="topKInput">Top-K Builds</label>
+            <input type="number" id="topKInput" min="1" max="10" value="3" />
+          </div>
+          <div class="field-group">
+            <label for="popSizeInput">População (AG)</label>
+            <input type="number" id="popSizeInput" min="10" max="200" value="30" />
+          </div>
+        </div>
+
+        <div class="field-group">
+          <label for="generationsInput">Gerações Evoluídas</label>
+          <input type="number" id="generationsInput" min="10" max="500" value="100" />
+        </div>
+
+        <button type="submit" id="runBtn" class="btn-primary">
+          <span class="btn-icon">⚡</span>
+          <span id="runBtnText">Gerar Builds Recomendadas</span>
+        </button>
+      </form>
+    </aside>
+
+    <!-- PAINEL DE RESULTADOS (DIREITA) -->
+    <section class="results-area">
+      <!-- Barra de Métricas da Execução -->
+      <div class="metrics-bar" id="metricsBar">
+        <div class="metric-item">
+          <span class="metric-label">Cenário Ativo</span>
+          <strong class="metric-val" id="metricScenario">E1 • Geral</strong>
+        </div>
+        <div class="metric-item">
+          <span class="metric-label">Melhor Fitness</span>
+          <strong class="metric-val highlight-gold" id="metricBestFitness">—</strong>
+        </div>
+        <div class="metric-item">
+          <span class="metric-label">Tempo do AG</span>
+          <strong class="metric-val" id="metricTime">—</strong>
+        </div>
+        <div class="metric-item">
+          <span class="metric-label">Configuração AG</span>
+          <strong class="metric-val" id="metricConfig">30 ind × 100 ger</strong>
+        </div>
+      </div>
+
+      <!-- Abas de Visualização -->
+      <div class="view-tabs">
+        <button type="button" class="tab-btn active" data-tab="visualTab">
+          🛡️ Cards de Build + Breakdown Matemático
+        </button>
+        <button type="button" class="tab-btn" data-tab="terminalTab">
+          💻 Saída Idêntica ao Terminal (CLI)
+        </button>
+      </div>
+
+      <!-- ABA 1: CARDS VISUAIS -->
+      <div id="visualTab" class="tab-content active">
+        <div id="buildsContainer" class="builds-list"></div>
+      </div>
+
+      <!-- ABA 2: SAÍDA TERMINAL -->
+      <div id="terminalTab" class="tab-content">
+        <div class="terminal-window">
+          <div class="terminal-header">
+            <div class="terminal-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <span class="terminal-cmd" id="terminalCmdPreview">python examples/demo_cli.py --champion "Jinx" --stars 3</span>
+            <button type="button" id="copyCliBtn" class="btn-copy">Copiar Saída</button>
+          </div>
+          <pre id="cliOutputPre" class="terminal-body">Aguardando execução...</pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
+
