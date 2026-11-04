@@ -100,13 +100,9 @@ Fundamentos de IA/
 │   ├── APRESENTACAO_RESULTADOS.md           # Síntese estruturada para a apresentação final (5 a 9 min)
 │   ├── GUIA_DE_USO.md                       # Instruções de execução dos experimentos
 │   ├── ALL_CHAMPIONS_BUILDS.md              # Catálogo gerado para os 60 campeões
-│   ├── artigo_base/                         # Artigo original publicado no SBGames 2024 (PDF)
-│   ├── slides/                              # Slides da Apresentação 1 (Problema e Objetivo)
-│   └── materia_faculdade/                   # Plano de ensino, aulas e regras de avaliação (Trabalho.pdf)
-├── latex/
-│   ├── artigo_sbgames.tex                   # Manuscrito acadêmico no formato SBC
-│   ├── artigo_sbgames.pdf                   # Manuscrito compilado em PDF
-│   └── sbc-template.sty                     # Estilo oficial da Sociedade Brasileira de Computação
+│   └── slides/                              # Slides e recursos de apresentação
+├── LICENSE                                  # Licença de código aberto (MIT)
+├── requirements.txt                         # Dependências do projeto
 └── README.md
 ```
 

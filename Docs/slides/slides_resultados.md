@@ -142,3 +142,21 @@ Na avaliação qualitativa (RQ3), o AG reproduziu com exatidão as builds Best-i
 ::: notes
 Concluímos que o objetivo proposto foi integralmente cumprido para os 60 campeões do jogo, atingindo 100% de precisão na conf3 em menos de 50 ms e mantendo total fidelidade às referências bibliográficas originais. Muito obrigado!
 :::
+
+---
+
+# Repositório Completo no GitHub (Código-Fonte e Testes)
+
+* **Link Direto:** [github.com/RafaelGomes8994/Fundamentos_IA_LoR_Algoritmo_Genetico](https://github.com/RafaelGomes8994/Fundamentos_IA_LoR_Algoritmo_Genetico)
+* **Destaques do Repositório:**
+  * Motor evolutivo completo em Python padrão (Zero dependências externas obrigatórias)
+  * Suíte com **31 testes unitários automatizados** (`python -m unittest discover tests -v`)
+  * Base de dados curada com **60 Campeões**, **34 Relíquias** e **8 Chefes Mundiais**
+  * Scripts prontos para benchmark GQM e geração de builds para todos os campeões
+
+![QR Code do Repositório GitHub](qrcode_github.png){width=35%}
+
+::: notes
+Para finalizar, todo o projeto é open-source e está disponível publicamente no GitHub pelo QR Code em tela. O repositório conta com 31 testes unitários automatizados cobrindo todas as regras de negócio e os scripts de reprodução direta dos experimentos. Muito obrigado pela atenção e fico aberto às perguntas!
+:::
+

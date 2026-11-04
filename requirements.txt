@@ -3,6 +3,11 @@
 
 # O núcleo do algoritmo e dos testes utiliza a biblioteca padrão do Python (Python 3.10+)
 
-# Ferramentas auxiliares opcionais para geração de relatórios e manipulação de documentos:
+# Ferramentas auxiliares opcionais para geração de relatórios, slides e QR codes:
 pypandoc>=1.13
 pypdf>=5.0.0
+pymupdf>=1.24.0
+python-pptx>=1.0.0
+qrcode>=8.0
+Pillow>=10.0.0
+

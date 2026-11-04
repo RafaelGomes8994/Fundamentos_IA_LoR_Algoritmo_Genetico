@@ -89,3 +89,9 @@ desktop.ini
 *.swp
 *.swo
 *~
+
+# Artigo cientfico e materiais de aula (mantidos apenas localmente)
+latex/
+Docs/artigo_base/
+Docs/materia_faculdade/
+
