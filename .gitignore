@@ -90,8 +90,7 @@ desktop.ini
 *.swo
 *~
 
-# Artigo cientfico e materiais de aula (mantidos apenas localmente)
+# Documentao acadmica, apresentaes, slides e materiais (mantidos apenas localmente)
+Docs/
 latex/
-Docs/artigo_base/
-Docs/materia_faculdade/
 

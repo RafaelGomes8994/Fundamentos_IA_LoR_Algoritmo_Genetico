@@ -94,16 +94,10 @@ Fundamentos de IA/
 │   ├── test_genetic_algorithm.py            # Testes de cruzamento, mutação, reparo e convergência
 │   ├── test_comparison.py                   # Testes de validação contra a busca exata
 │   └── test_end_to_end.py                   # Testes integrados das estratégias E1, E2 e E3
-├── Docs/
-│   ├── RELATORIO_TECNICO.md                 # Relatório acadêmico completo da extensão
-│   ├── FORMULACAO_MATEMATICA.md             # Detalhamento matemático do cromossomo e fitness
-│   ├── TREINAMENTO_APRESENTACAO.md          # Manual de defesa, roteiro cronometrado e sabatina
-│   ├── APRESENTACAO_RESULTADOS.md           # Síntese estruturada para a apresentação final (5 a 9 min)
-│   ├── GUIA_DE_USO.md                       # Instruções de execução dos experimentos
-│   ├── ALL_CHAMPIONS_BUILDS.md              # Catálogo gerado para os 60 campeões
-│   └── slides/                              # Slides e recursos de apresentação
-├── web/                                     # Interface gráfica interativa (HTML5, CSS3, JS)
-├── web_app.py                               # Servidor web local zero-dependências
+├── web/                                     # Interface gráfica interativa Hextech (HTML5, CSS3, JS)
+├── api/                                     # Endpoints serverless para Vercel
+├── web_app.py                               # Servidor web local nativo zero-dependências
+├── vercel.json                              # Configuração de deploy da interface web
 ├── LICENSE                                  # Licença de código aberto (MIT)
 ├── requirements.txt                         # Dependências do projeto
 └── README.md
