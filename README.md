@@ -156,5 +156,6 @@ Todas as referências abaixo constam e foram verificadas diretamente a partir do
 * **CHEN, Z.; AMATO, C.; NGUYEN, T.-H. D.; COOPER, S.; SUN, Y.; EL-NASR, M. S.** Q-deckrec: A fast deck recommendation system for collectible card games. In: *2018 IEEE Conference on Computational Intelligence and Games (CIG)*, p. 1–8, 2018.
 * **GARCÍA-SÁNCHEZ, P.; TONDA, A.; SQUILLERO, G.; MORA, A.; MERELO, J. J.** Evolutionary deckbuilding in Hearthstone. In: *2016 IEEE Conference on Computational Intelligence and Games (CIG)*, p. 1–8, 2016.
 * **KRAMER, O.** *Genetic Algorithm Essentials*. Springer, 2017.
-* **RIOT GAMES.** *Legends of Runeterra*. 2024.
+* **PATH OF CHAMPIONS COMMUNITY.** The Community Path of Champions Relic & Build Spreadsheet. Reddit: r/PathofChampions / Discord LoR, 2024. Disponível em: <https://docs.google.com/spreadsheets/d/1FePMz4o3tbiWcz0nHZYu0aAHknbIfb9anWfQCVtvtKk/>.
+* **RIOT GAMES.** *Legends of Runeterra*. 2024. Disponível em: <https://playruneterra.com/>.
 * **WEISE, T.** *Global Optimization Algorithms – Theory and Application*. 1st ed., 2008.
